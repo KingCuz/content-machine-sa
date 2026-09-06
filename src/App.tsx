@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   const [prompt, setPrompt] = useState('Weekend special: R65 chicken burger + free delivery within 5km');
